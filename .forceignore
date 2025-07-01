@@ -1,3 +1,4 @@
+
 ############################
 # General Clean-up
 ############################
@@ -35,8 +36,6 @@ destructiveChanges*
 ############################
 # Profile Management
 ############################
-
-profiles
 
 ############################
 # Source Tracking Noise (optional)
