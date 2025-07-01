@@ -35,13 +35,8 @@ destructiveChanges*
 ############################
 # Profile Management
 ############################
-# Ignore all profiles by default (they’re noisy)
-**/profiles/*
 
-# Allow only selected important profiles to be tracked
-!force-app/main/default/profiles/Admin.profile-meta.xml
-!force-app/main/default/profiles/Sales.profile-meta.xml
-!force-app/main/default/profiles/Support.profile-meta.xml
+profiles
 
 ############################
 # Source Tracking Noise (optional)
