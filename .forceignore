@@ -1,0 +1,56 @@
+############################
+# General Clean-up
+############################
+# System files and IDE junk
+.project
+.classpath
+.settings/
+*.log
+*.tmp
+*.bak
+*.cache
+*.swp
+*.swo
+
+# Local config files
+local.properties
+config/
+
+############################
+# Apex Logs and Output
+############################
+apex-scripts/
+output/
+scripts/
+
+############################
+# Unwanted Metadata
+############################
+# Ignore package.xml if not using source format directly
+package.xml
+
+# Ignore destructiveChanges if you’re not managing it manually
+destructiveChanges*
+
+############################
+# Profile Management
+############################
+# Ignore all profiles by default (they’re noisy)
+**/profiles/*
+
+# Allow only selected important profiles to be tracked
+!force-app/main/default/profiles/Admin.profile-meta.xml
+!force-app/main/default/profiles/Sales.profile-meta.xml
+!force-app/main/default/profiles/Support.profile-meta.xml
+
+############################
+# Source Tracking Noise (optional)
+############################
+# These files are not useful in source control
+.steampipe_cache/
+.vscode/
+.idea/
+node_modules/
+coverage/
+test-output/
+.sfdx/
